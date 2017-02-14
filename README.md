@@ -1,2 +1,3 @@
-# gent-systems.github.io
-Website for gent-systems.github.io
+# Gent-Systems
+
+## Home page work in progress...
