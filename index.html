@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Metadata for SEO and such -->
+        <title>Gent-Systems</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Knowledge">
+        <meta name="keywords" content="code, engineering, design, docs">
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="John Gentile">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- link CSS and Google icon content -->
+        <link rel="stylesheet" href="w3.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    
+    <header>
+        <ul class="w3-navbar w3-dark-grey">
+            <li><span class="w3-opennav w3-xxlarge w3-padding" onclick="w3_open()"><i class="material-icons" style="font-size:36px">menu</i></span></li>
+            <li><a href="#" class="w3-padding-16">Home</a></li>
+            <li><a href="#" class="w3-padding-16">Link 1</a></li>
+            <li><input type="text" class="w3-input w3-light-grey w3-padding-16" placeholder="Search..."></li>
+            <li><button class="w3-btn w3-grey w3-padding-16">Search</button></li>
+        </ul>
+    </header>
+        
+    <body>
+        <nav class="w3-sidenav w3-grey w3-animate-left" style="display:none;z-index:5;width:400px;" id="mySidenav">
+            <h3 class="w3-padding"><b>Navigate Knowledge Base</b> <i class="material-icons">folder</i></h3>
+            <a href="#">Link 1</a>
+            <div class="w3-accordion">
+                <a onclick="myAccFunc()" href="#">Accordion</a>
+                <div id="demoAcc" class="w3-accordion-content w3-white w3-card-4">
+                    <a href="#">Link x</a>
+                    <a href="#">Link y</a>
+                    <a href="#">Link z</a>
+                </div>
+            </div>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav w3-large">Close &times;</a>
+        </nav>
+        
+        <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+        
+        <div class="w3-container">
+            
+            <h2>Page content..</h2>
+            <p>
+                Lorem ipsum content...
+            </p>
+            
+            <div class="w3-center">
+                <ul class="w3-pagination">
+                    <li><a href="#"><i class="material-icons">first_page</i></a></li>
+                    <li><a href="#"><i class="material-icons">chevron_left</i></a></li>
+                    <li><a class="w3-dark-grey" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#"><i class="material-icons">chevron_right</i></a></li>
+                    <li><a href="#"><i class="material-icons">last_page</i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer style="color:#fff;background-color:#3C3F41;padding:1em;text-align:center;clear:left;font-size:75%">
+            <em>Maintained by <a href="www.gent-systems.com">Gent-Systems</a> and John Gentile | 2017</em>
+        </footer>
+        
+        <script>
+            
+            function w3_open() {
+                document.getElementById("mySidenav").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function w3_close() {
+                document.getElementById("mySidenav").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+            
+            function myAccFunc() {
+                var x = document.getElementById("demoAcc");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-dark-grey";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                }
+            }
+            
+        </script>  
+    </body>
+</html>
