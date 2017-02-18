@@ -17,30 +17,55 @@
     
     <header>
         <ul class="w3-navbar w3-dark-grey">
-            <li><span class="w3-opennav w3-xxlarge w3-padding" onclick="w3_open()"><i class="material-icons" style="font-size:36px">menu</i></span></li>
-            <li><a href="#" class="w3-padding-16">Home</a></li>
-            <li><a href="#" class="w3-padding-16">Link 1</a></li>
-            <li><input type="text" class="w3-input w3-light-grey w3-padding-16" placeholder="Search..."></li>
-            <li><button class="w3-btn w3-grey w3-padding-16">Search</button></li>
+            <li><span class="w3-opennav w3-xxlarge w3-padding" onclick="w3_open()"><i class="material-icons">menu</i></span></li>
+            <li><a href="https://gent-systems.github.io/" class="w3-padding-16"><i class="material-icons">home</i></a></li>
+            <li><a href="https://github.com/Gent-Systems" class="w3-padding-16"><i class="material-icons">code</i></a></li>
+            <li><a href="http://www.gent-systems.com" class="w3-padding-16"><i class="material-icons">business</i></a></li>
         </ul>
     </header>
         
     <body>
         <nav class="w3-sidenav w3-grey w3-animate-left" style="display:none;z-index:5;width:400px;" id="mySidenav">
-            <h3 class="w3-padding"><b>Navigate Knowledge Base</b> <i class="material-icons">folder</i></h3>
-            <a href="#">Link 1</a>
+            <h3 class="w3-padding"><b>Navigate Knowledge Base</b> <i class="material-icons">folder_open</i></h3>
             <div class="w3-accordion">
-                <a onclick="myAccFunc()" href="#">Accordion</a>
-                <div id="demoAcc" class="w3-accordion-content w3-white w3-card-4">
-                    <a href="#">Link x</a>
-                    <a href="#">Link y</a>
-                    <a href="#">Link z</a>
+                <a id="busi" onclick="BusiAccFunc()" href="#">+ Business-Management</a>
+                <div id="BusiAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+                    <a href="#">Leadership</a>
+                    <a href="#">Project Management</a>
+                    <a href="#">Finance</a>
+                </div>
+            </div>            
+            <div class="w3-accordion">
+                <a id="analog" onclick="AnagAccFunc()" href="#">+ Analog Design & Electrical Theory</a>
+                <div id="AnagAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+                    <a href="#">Electrical Fundamentals</a>
+                    <a href="#">Board Design</a>
+                    <a href="#">RF & High-Speed</a>
+                    <a href="#">Equations</a>
                 </div>
             </div>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
+            <div class="w3-accordion">
+                <a id="digi" onclick="DigiAccFunc()" href="#">+ Digital Design</a>
+                <div id="DigiAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+                    <a href="#">VHDL</a>
+                    <a href="#">Digital System Design</a>
+                    <a href="#">Computer Architecture</a>
+                </div>
+            </div>
+            <div class="w3-accordion">
+                <a id="comms" onclick="CommsAccFunc()" href="#">+ Communications</a>
+                <div id="CommsAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+                    <a href="#">Signals & Systems</a>
+                    <a href="#">Communication & Systems Networking</a>
+                </div>
+            </div>
+            <div class="w3-accordion">
+                <a id="code" onclick="CodeAccFunc()" href="#">+ Software Engineering</a>
+                <div id="CodeAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+                    <a href="#">Principles & Computer Science</a>
+                    <a href="#">Coding Language Best Practices</a>
+                </div>
+            </div>
             <a href="javascript:void(0)" onclick="w3_close()" 
   class="w3-closenav w3-large">Close &times;</a>
         </nav>
@@ -85,15 +110,78 @@
                 document.getElementById("myOverlay").style.display = "none";
             }
             
-            function myAccFunc() {
-                var x = document.getElementById("demoAcc");
+            function BusiAccFunc() {
+                var x = document.getElementById("BusiAcc");
+                var txt = document.getElementById("busi");
                 if (x.className.indexOf("w3-show") == -1) {
                     x.className += " w3-show";
                     x.previousElementSibling.className += " w3-dark-grey";
+                    txt.text = "- Business-Management";
                 } else { 
                     x.className = x.className.replace(" w3-show", "");
                     x.previousElementSibling.className = 
                         x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                    txt.text = "+ Business-Management";
+                }
+            }
+            
+            function AnagAccFunc() {
+                var x = document.getElementById("AnagAcc");
+                var txt = document.getElementById("analog");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-dark-grey";
+                    txt.text = "- Analog Design & Electrical Theory";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                    txt.text = "+ Analog Design & Electrical Theory";
+                }
+            }
+            
+            function DigiAccFunc() {
+                var x = document.getElementById("DigiAcc");
+                var txt = document.getElementById("digi");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-dark-grey";
+                    txt.text = "- Digital Design";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                    txt.text = "+ Digital Design";
+                }
+            }
+            
+            function CommsAccFunc() {
+                var x = document.getElementById("CommsAcc");
+                var txt = document.getElementById("comms");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-dark-grey";
+                    txt.text = "- Communications";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                    txt.text = "+ Communications";
+                }
+            }
+            
+            function CodeAccFunc() {
+                var x = document.getElementById("CodeAcc");
+                var txt = document.getElementById("code");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-dark-grey";
+                    txt.text = "- Software Engineering";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className = 
+                        x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                    txt.text = "+ Software Engineering";
                 }
             }
             
