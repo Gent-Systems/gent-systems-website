@@ -2,3 +2,6 @@ collections:
   kb:
     output: true
     permalink: /:path/:title/
+
+gems:
+  - jekyll-sitemap
