@@ -1,0 +1,4 @@
+collections:
+  kb:
+    output: true
+    permalink: /:path/:title/
