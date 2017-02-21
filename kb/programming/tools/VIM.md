@@ -1,5 +1,6 @@
 ---
 title: VIM
+layout: default
 ---
 
 # Vim Commands & Usage Notes
@@ -12,6 +13,7 @@ A good way to learn Vim is by using `vimtutor` in your shell. Some commands, lik
 | Insert | <kbd>i</kbd> | **--INSERT--** Insert/edit text in traditional text editor sense|
 | Command | <kbd>:</kbd> | Enter commands to execute |
 | Visual | <kbd>v</kbd> | Enter visual mode |
+
 _Note: You must be in Normal mode before going into other modes_
 
 ## Normal Mode
@@ -19,6 +21,7 @@ _Note: You must be in Normal mode before going into other modes_
 Typing a number before a motion repeats the motion that many times (i.e typing <kbd>3</kbd><kbd>w</kbd> moves the cursor 3 words forward and <kbd>d</kbd><kbd>2</kbd><kbd>w</kbd> deletes next 2 words).
 
 ### Navigation
+
 | Operation | Key(s) | Description |
 |-----------|--------|-------------|
 | Left/Down/Up/Right | <kbd>h</kbd>/<kbd>j</kbd>/<kbd>k</kbd>/<kbd>l</kbd> | Move cursor left, down, up or right respectively |
@@ -38,6 +41,7 @@ Typing a number before a motion repeats the motion that many times (i.e typing <
 | Exit & Write | <kbd>Shift</kbd>+<kbd>z</kbd>,<kbd>Shift</kbd>+<kbd>z</kbd> | Write file, if modified, and quit Vim |
 
 ### Copy/Paste, Search, Find & Replace
+
 | Operation | Key(s) | Description |
 |-----------|--------|-------------|
 | Copy (yank) Text | <kbd>y</kbd> | Use <kbd>y</kbd>,<kbd>w</kbd> to yank a word or use Visual Mode to select desired text before hitting <kbd>y</kbd>. After which, text can be pasted using the put (<kbd>p</kbd>) command |
@@ -48,9 +52,11 @@ Typing a number before a motion repeats the motion that many times (i.e typing <
 | _Search Commands_ | `:set ic hls is` | These commands allow for search to ignore exact case matching, to highlight matching values and to increment search respectively. Use `:set noic nohlsearch` to disable ignoring case and highlighting of matches respectively |
 | Find Matching Bracket | <kbd>%</kbd> | Place cursor at any bracket and hit key to find matching bracket for types (), [], or {} |
 | Replace Mode | <kbd>Shift</kbd>+<kbd>r</kbd> | Acts like Insert mode in other text editors in that every typed character is inserted and delets an existing character |
+
 _For find & replace, see **Substitution** under the Command section_
 
 ### Deletion
+
 | Operation | Key(s) | Description |
 |-----------|--------|-------------|
 | Delete Character | <kbd>x</kbd> | Deletes character under cursor |
@@ -61,6 +67,7 @@ _For find & replace, see **Substitution** under the Command section_
 | Delete to End of Line | <kbd>d</kbd>,<kbd>$</kbd> | Delete to end of line after cursor |
 
 ### Put, Changes and Reversals
+
 | Operation | Key(s) | Description |
 |-----------|--------|-------------|
 | Undo Last Edit | <kbd>u</kbd> | Undoes last operation (like <kbd>Ctrl</kbd>+<kbd>z</kbd> in other text editors) |
