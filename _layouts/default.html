@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="/css/github-markdown.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -71,8 +72,13 @@
     <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
     <div class="w3-container">
-
-        {{ content }}
+        <article class="markdown-body" style="box-sizing: border-box;
+				min-width: 200px;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 45px;">
+           {{ content }}
+        </article>
 
         <div class="w3-center">
             <ul class="w3-pagination">
