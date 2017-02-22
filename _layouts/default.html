@@ -12,19 +12,18 @@
 
     <link rel="stylesheet" href="/css/w3.css">
     <link rel="stylesheet" href="/css/github-markdown.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto'>
+    <link rel='stylesheet' href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<header>
+<header style="font-family: 'Roboto'">
     <ul class="w3-navbar w3-dark-grey">
-        <li><span class="w3-opennav w3-xxlarge w3-padding" onclick="w3_open()"><i class="material-icons">menu</i></span></li>
+        <li><span class="w3-opennav w3-xxxlarge w3-padding" onclick="w3_open()"><i class="material-icons" style="font-size: 34px">menu</i></span></li>
         <li><a href="https://gent-systems.github.io/" class="w3-padding-16"><i class="material-icons">home</i></a></li>
         <li><a href="https://github.com/Gent-Systems" class="w3-padding-16"><i class="material-icons">code</i></a></li>
         <li><a href="http://www.gent-systems.com" class="w3-padding-16"><i class="material-icons">business</i></a></li>
     </ul>
-</header>
-
-<body>
+    
     <nav class="w3-sidenav w3-grey w3-animate-left" style="display:none;z-index:5;width:400px;" id="mySidenav">
         <h3 class="w3-padding"><b>Navigate Knowledge Base</b> <i class="material-icons">folder_open</i></h3>
         <div class="w3-accordion">
@@ -64,13 +63,22 @@
             <div id="CodeAcc" class="w3-accordion-content w3-light-grey w3-card-4">
                 <a href="#">Principles & Computer Science</a>
                 <a href="#">Coding Language Best Practices</a>
+                <div class="w3-accordion">
+                    <a id="codeTools" onclick=" CodeToolsAccFunc() " href="#">+ Tools</a>
+                    <div id="CodeToolsAcc" class="w3-accordion-content w3-light-grey w3-card-4" style="padding: 0px 35px">
+                        <a href="https://gent-systems.github.io/kb/programming/tools/VIM">VIM</a>
+                    </div>
+                </div>
             </div>
         </div>
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close &times;</a>
     </nav>
 
-    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>    
+    
+</header>
 
+<body>
     <div class="w3-container">
         <article class="markdown-body" style="box-sizing: border-box;
 				min-width: 200px;
@@ -80,7 +88,7 @@
            {{ content }}
         </article>
 
-        <div class="w3-center">
+        <div class="w3-center" style="font-family: 'Roboto'">
             <ul class="w3-pagination">
                 <li><a href="#"><i class="material-icons">first_page</i></a></li>
                 <li><a href="#"><i class="material-icons">chevron_left</i></a></li>
@@ -95,8 +103,8 @@
         </div>
     </div>
 
-    <footer style="color:#fff;background-color:#3C3F41;padding:1em;text-align:center;clear:left;font-size:75%">
-        <em>Maintained by <a href="http://www.gent-systems.com">Gent-Systems</a> and John Gentile | 2017</em>
+    <footer style="color:#fff;background-color:#3C3F41;padding:1em;text-align:center;clear:left;font-size:75%;font-family: 'Roboto'">
+        Maintained by <em><a href="http://www.gent-systems.com">Gent-Systems</a></em> and John Gentile | 2017
     </footer>
 
     <script>
@@ -184,6 +192,22 @@
                 txt.text = "+ Software Engineering";
             }
         }
+        
+        function CodeToolsAccFunc() {
+            var x = document.getElementById("CodeToolsAcc");
+            var txt = document.getElementById("codeTools");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-dark-grey";
+                txt.text = "- Tools";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-dark-grey", "");
+                txt.text = "+ Tools";
+            }
+        }
+        
     </script>
 </body>
 
