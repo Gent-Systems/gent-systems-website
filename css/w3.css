@@ -236,7 +236,8 @@ a {
 
 .w3-navbar li a:hover {
     color: #fff;
-    background-color: #dd9933
+    border-bottom: 3px solid #dd9933;
+    background-color: 
 }
 
 .w3-navbar .w3-dropdown-hover,
@@ -334,7 +335,7 @@ a {
     background-color: #fff;
     position: fixed!important;
     z-index: 1;
-    overflow: auto
+    overflow: visible
 }
 
 .w3-sidenav a,
@@ -344,7 +345,7 @@ a {
 
 .w3-sidenav a:hover,
 .w3-navblock a:hover {
-    background-color: #dd9933
+    border-left: 3px solid #dd9933
 }
 
 .w3-sidenav a,
@@ -433,7 +434,7 @@ a {
 .w3-dropdown-click,
 .w3-dropdown-hover {
     position: relative;
-    display: inline-block;
+    display: block;
     cursor: pointer
 }
 
@@ -449,6 +450,7 @@ a {
     display: none;
     position: absolute;
     min-width: 160px;
+    left: 100px;
     margin: 0;
     padding: 0
 }
@@ -471,13 +473,14 @@ a {
     cursor: auto;
     display: none;
     position: relative;
+    left: 0px;
     width: 100%;
     margin: 0;
     padding: 0
 }
 
 .w3-accordion-content a {
-    padding: 6px 35px;
+    padding: 6px 5px;
     display: block
 }
 

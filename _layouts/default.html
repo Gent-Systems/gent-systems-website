@@ -18,54 +18,57 @@
 
 <header style="font-family: 'Roboto'">
     <ul class="w3-navbar w3-dark-grey">
-        <li><span class="w3-opennav w3-xxxlarge w3-padding" onmouseenter="w3_open()"><i class="material-icons" style="font-size: 34px">menu</i></span></li>
+        <li><span class="w3-opennav w3-xxxlarge w3-padding" onclick="w3_open()" onmouseenter="w3_open()"><i class="material-icons" style="font-size: 34px">menu</i></span></li>
         <li><a id="home" href="https://gent-systems.github.io/" class="w3-padding-16" onmouseenter="btnHoverText('home', 'Home')" onmouseleave="btnHoverText('home', 'home')"><i class="material-icons">home</i></a></li>
         <li><a id="codeIcon" href="https://github.com/Gent-Systems" class="w3-padding-16" onmouseenter="btnHoverText('codeIcon', 'GitHub')" onmouseleave="btnHoverText('codeIcon', 'code')"><i class="material-icons">code</i></a></li>
         <li><a id="business" href="http://www.gent-systems.com" class="w3-padding-16" onmouseenter="btnHoverText('business', 'Gent-Systems.com')" onmouseleave="btnHoverText('business', 'business')"><i class="material-icons">business</i></a></li>
     </ul>
     
-    <nav class="w3-sidenav w3-grey w3-animate-left" style="display:none;z-index:5;width:400px;" id="mySidenav" onmouseleave="w3_close()">
+    <nav class="w3-sidenav w3-grey w3-animate-left" style="display:none; z-index:5; width:300px;" id="mySidenav" onmouseleave="w3_close()">
         <h3 class="w3-padding"><b>Navigate Knowledge Base</b> <i class="material-icons">folder_open</i></h3>
-        <div class="w3-accordion" onmouseenter="Menu_Accord('BusiAcc', 'busi', 'Business-Management')" onmouseleave="Menu_Accord('BusiAcc', 'busi', 'Business-Management')">
-            <a id="busi" href="#">+ Business-Management</a>
-            <div id="BusiAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+        <div class="w3-dropdown-hover">
+            <a>Business-Management ></a>
+            <div class="w3-dropdown-content">
                 <a href="#">Leadership</a>
                 <a href="#">Project Management</a>
                 <a href="#">Finance</a>
             </div>
         </div>
-        <div class="w3-accordion" onmouseenter="Menu_Accord('AnagAcc', 'analog', 'Analog Design & Electrical Theory')" onmouseleave="Menu_Accord('AnagAcc', 'analog', 'Analog Design & Electrical Theory')">
-            <a id="analog" href="#">+ Analog Design & Electrical Theory</a>
-            <div id="AnagAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+        <div class="w3-dropdown-hover">
+            <a>Analog Design & Electrical Theory ></a>
+            <div class="w3-dropdown-content">
                 <a href="#">Electrical Fundamentals</a>
                 <a href="#">Board Design</a>
                 <a href="#">RF & High-Speed</a>
                 <a href="#">Equations</a>
             </div>
         </div>
-        <div class="w3-accordion" onmouseenter="Menu_Accord('DigiAcc', 'digi', 'Digital Design')" onmouseleave="Menu_Accord('DigiAcc', 'digi', 'Digital Design')">
-            <a id="digi" href="#">+ Digital Design</a>
-            <div id="DigiAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+        <div class="w3-dropdown-hover">
+            <a>Digital Design ></a>
+            <div class="w3-dropdown-content">
                 <a href="#">VHDL</a>
                 <a href="#">Digital System Design</a>
                 <a href="#">Computer Architecture</a>
             </div>
         </div>
-        <div class="w3-accordion" onmouseenter="Menu_Accord('CommsAcc', 'comms', 'Communications')" onmouseleave="Menu_Accord('CommsAcc', 'comms', 'Communications')">
-            <a id="comms" href="#">+ Communications</a>
-            <div id="CommsAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+        <div class="w3-dropdown-hover">
+            <a>Communications ></a>
+            <div class="w3-dropdown-content w3-card-4">
+               <div class="w3-container">
                 <a href="#">Signals & Systems</a>
                 <a href="#">Communication & Systems Networking</a>
+                <h1>Header</h1>
+               </div>
             </div>
         </div>
-        <div class="w3-accordion" onmouseenter="Menu_Accord('CodeAcc', 'code', 'Software Engineering')" onmouseleave="Menu_Accord('CodeAcc', 'code', 'Software Engineering')">
-            <a id="code" href="#">+ Software Engineering</a>
-            <div id="CodeAcc" class="w3-accordion-content w3-light-grey w3-card-4">
+        <div class="w3-dropdown-hover">
+            <a>Software Engineering ></a>
+            <div class="w3-dropdown-content">
                 <a href="#">Principles & Computer Science</a>
                 <a href="#">Coding Language Best Practices</a>
-                <div class="w3-accordion" onmouseenter="Menu_Accord('CodeToolsAcc', 'codeTools', 'Tools')" onmouseleave="Menu_Accord('CodeToolsAcc', 'codeTools', 'Tools')">
-                    <a id="codeTools" href="#">+ Tools</a>
-                    <div id="CodeToolsAcc" class="w3-accordion-content w3-light-grey w3-card-4" style="padding: 0px 35px">
+                <div class="w3-dropdown-hover">
+                    <a>Tools ></a>
+                    <div class="w3-dropdown-content">
                         <a href="https://gent-systems.github.io/kb/programming/tools/VIM">VIM</a>
                     </div>
                 </div>
@@ -127,21 +130,6 @@
                 document.getElementById(btnId).innerHTML = "<i class='material-icons'>business</i>";
             } else {
                 document.getElementById(btnId).innerHTML = txtStr;
-            }
-        }
-        
-        function Menu_Accord(elemId, strId, txtStr) {
-            var x = document.getElementById(elemId);
-            var txt = document.getElementById(strId);
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-                x.previousElementSibling.className += " w3-dark-grey";
-                txt.innerHTML = "- " + txtStr;
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-                x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace(" w3-dark-grey", "");
-                txt.innerHTML = "+ " + txtStr;
             }
         }
         
