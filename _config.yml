@@ -1,8 +1,4 @@
 # Site settings
-description: > # this means to ignore newlines until "baseurl:"
-  An automatic breadcrumb for jekyll hosted on GitHub Pages
-baseurl: "/gent-systems.github.io" # the subpath of your site, e.g. /blog/
-url: "https://gent-systems.github.io" # the base hostname & protocol for your site
 collections:
   kb:
     output: true

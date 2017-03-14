@@ -1,7 +1,6 @@
 ---
 title: VIM
 layout: default
-breadcrumb: VIM
 ---
 
 # Vim Commands & Usage Notes
