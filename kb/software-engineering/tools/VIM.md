@@ -118,7 +118,9 @@ Once in visual mode, navigation causes text to be highlighted.
 
 ## Vim Config File
 
-The _.vimrc_ file (usually found in the home folder, but can be placed in other directories for per project custom features) is useful for enabling extended features of Vim and for personalization/customization of Vim. To see an example _.vimrc_ with comments on what-does-what, see [this GitHub link](https://github.com/JohnnyGOX17/configs-tools/blob/master/.vimrc).
+The _.vimrc_ file (usually found in the home folder, but can be placed in other directories for per project custom features) is useful for enabling extended features of Vim and for personalization/customization of Vim. To see an example _.vimrc_ with comments on what-does-what, see [this GitHub link](https://github.com/JohnnyGOX17/configs/blob/master/configs/.vimrc).
+
+Vim can also be further extended with plugins and plugin managers such as [vim-plug](https://github.com/junegunn/vim-plug).
 
 ## Techniques for Development
 
@@ -144,7 +146,7 @@ Here are some useful tips when working with Vim for code development:
     - `:cnext`/`:cprevious` moves to the next/previous error (`:clast`/`:crewind` go to last/first errors)
     - `:cnfile` goes to the first error message in the next file
     - `:cc` shows current error and `:clist` gives a list of errors (`:clist!` shows all informational messages)
-* To search a regular expression across files, you can use vimgrep such as `:vi /hack/ /usr/src/linux**/*.c`; in this example, we search for the regex _hack_ in all files that match the wildcard *.c in the directory _/usr/src/linux_ and all directories below it
+* To search a regular expression across files, you can use vimgrep such as `:vi /hack/ /usr/src/linux**/*.c`; in this example, we search for the regex _hack_ in all files that match the wildcard `*.c` in the directory _/usr/src/linux_ and all directories below it
     - You can use the same navigational commands for tags to navigate search matches from vimgrep
 * Open file under cursor with <kbd>g</kbd><kbd>f</kbd>; this is very useful for opening referenced `#include` files in a C/C++ file
     - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>o</kbd> to go back
@@ -152,3 +154,8 @@ Here are some useful tips when working with Vim for code development:
 * When working with source files edited/made in Windows/DOS, you'll often come across the issue of line ending mismatches when developing in Unix based systems. Vim can simply change line endings with a command such as `:set ff=unix` (to convert a DOS file to Unix line endings) or `:set ff=dos` for the opposite
 * Get creative with autocommands and abbreviations to insert commonly used sections of code/text automagically
 * Use plugins (_sparingly_) to help aid in quicker, more effecient development (see .vimrc linked above for an example)
+
+## References
+
+* [Learning the vi and Vim Editors, 7th Edition by Arnold Robbins, Elbert Hannah, Linda Lamb](http://shop.oreilly.com/product/9780596529833.do)
+* [VIM Book](http://www.oualline.com/vim-book.html)
