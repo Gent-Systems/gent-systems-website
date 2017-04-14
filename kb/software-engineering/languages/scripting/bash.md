@@ -1,3 +1,8 @@
+---
+title: Bash-Scripting
+layout: default
+---
+
 # Bash Shell Scripting
 
 ## References
