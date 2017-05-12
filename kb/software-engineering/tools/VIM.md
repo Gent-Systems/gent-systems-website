@@ -159,4 +159,4 @@ Here are some useful tips when working with Vim for code development:
 ## References
 
 * [Learning the vi and Vim Editors, 7th Edition by Arnold Robbins, Elbert Hannah, Linda Lamb](http://shop.oreilly.com/product/9780596529833.do)
-* [VIM Book](http://www.oualline.com/vim-book.html)
+* [VIM Book by Steve Oualline](http://www.oualline.com/vim-book.html)

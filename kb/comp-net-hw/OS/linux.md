@@ -5,6 +5,11 @@ layout: default
 
 # The Linux Operating System
 
+## Kernel
+
+* [Getting Kernel Sources- CentOS 7](https://wiki.centos.org/HowTos/I_need_the_Kernel_Source)
+* [Building Kernel Module- CentOS 7](https://wiki.centos.org/HowTos/BuildingKernelModules)
+
 ## Tools
 
 ### General
