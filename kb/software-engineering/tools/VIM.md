@@ -7,6 +7,8 @@ layout: default
 
 A good way to learn Vim is by using `vimtutor` in your shell. Some commands, like working with multiple files/windows in Vim, are not listed as our workflow mainly uses tiling windows managers in a Linux environment.
 
+$$ E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}} $$
+
 | Mode | Key(s) | Description |
 |------|--------|-------------|
 | Normal | <kbd>Esc</kbd> | Normal mode |
