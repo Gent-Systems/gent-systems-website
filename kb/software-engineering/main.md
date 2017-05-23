@@ -5,6 +5,13 @@ layout: default
 
 # Software Engineering
 
+## Learning a Language
+
+Three things to learn:
+1) The abstract model of the language
+2) The specific syntax
+3) The standard libraries and common uses
+
 ## References
 
 ### Other Groups

@@ -3,6 +3,8 @@ title: Starting Up
 layout: default
 ---
 
+> "The more things are forbidden, the more popular they become."- Mark Twain
+
 $100,000 a year is only $273 a day.
 $273 a day is only $11/hr if you have a business that is running 24 hours.
 
