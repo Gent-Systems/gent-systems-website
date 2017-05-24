@@ -1,9 +1,45 @@
 ---
 layout: default
-title: Knowledge - Gent-Systems
+title: Home
 ---
 
-<h1>Knowledge Home</h1>
+<style>
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+    }
+    .carousel-caption h3 {
+      color: #fff !important;
+    }
+    @media (max-width: 600px) {
+        .carousel-caption {
+          display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        }
+    }
+</style>
 
-<h2>Goal</h2>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="/img/server_racks.jpg">
+      </div>
+      <div class="item">
+        <img src="/img/fractal_spiral_large.jpg">   
+      </div>
+      <div class="item">
+        <img src="/img/city_long_exposure.jpg"> 
+      </div>
+    </div>
+</div>
+
+<br />
+<h1>Gent-Systems</h1>
+
+<h3>Goal</h3>
 <p>To provide open and free knowledge on a variety of subjects. The information is meant to be layed out in a simple manner such that it can be easily digested and used as quick references. As Albert Einstein said, <em>"If you can't explain it simply, you don't understand it well enough."</em></p>
