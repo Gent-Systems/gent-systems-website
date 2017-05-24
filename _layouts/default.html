@@ -217,7 +217,16 @@
                     <li><a href="https://gent-systems.github.io/">
                         <img src="/img/Gent-systems_icon_white.png" style="width:22px;height:22px;border:0;"> Home</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigate Knowledge Base <span class="caret"></span></a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Our Projects</a></li>
+                            <li><a href="#">Our Goals</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Knowledge Base <span class="caret"></span></a>
                         <ul class="dropdown-menu multi-level">
                             <li><a href="#">Business-Finance</a></li>
                             <li><a href="#">Leadership & Management</a></li>
@@ -234,15 +243,22 @@
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools</a>
                                         <ul class="dropdown-menu">
                                         <li><a href="https://gent-systems.github.io/kb/software-engineering/tools/VIM">VIM</a></li>
-
                                         </ul>
                                     </li>
-                                    
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="https://github.com/Gent-Systems">GitHub</a></li>
+                    <form class="navbar-form navbar-left">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" id="search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" onclick="sendToSearch();">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>                
                 </ul>
             </div>
         </div>
@@ -262,55 +278,61 @@
 
 </body>
 
-<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
-<footer style="color:#fff;background-color:#3C3F41;padding:2em;text-align:center;clear:left">
-    Maintained by <em><a href="http://www.gent-systems.com">Gent-Systems</a></em> and John Gentile | 2017
-</footer>
+    <footer style="color:#fff;background-color:#3C3F41;padding:2em;text-align:center;clear:left">
+        Maintained by <em><a href="http://www.gent-systems.com">Gent-Systems</a></em> and John Gentile | 2017
+    </footer>
 
-<script>
-    $('body').scrollspy({
-        target: '.bs-docs-sidebar',
-        offset: 40
-    });
-</script>
-<script>
-    $("#toc").affix({
-        offset: {
-            top: 60
+    <script>
+        $('body').scrollspy({
+            target: '.bs-docs-sidebar',
+            offset: 40
+        });
+    </script>
+    <script>
+        $("#toc").affix({
+            offset: {
+                top: 60
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#toc').toc({
+                classes: {
+                    list: 'nav nav-stacked'
+                }
+            });
+            $('body').each(function () {
+                $(this).scrollspy('refresh');
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+        });
+    </script>
+    <script type="text/javascript">
+        function sendToSearch(){
+            var input = document.getElementById("search").value;
+            window.location.href = "http://gent-systems.com/search-results.html?q=" + input;
         }
-    });
-</script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#toc').toc({
-            classes: {
-                list: 'nav nav-stacked'
-            }
-        });
-        $('body').each(function () {
-            $(this).scrollspy('refresh');
-        });
-
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
-            } else {
-                $('#back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-
-        $('#back-to-top').tooltip('show');
-
-    });
-</script>
+    </script>
 
 </html>
