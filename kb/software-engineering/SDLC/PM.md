@@ -11,11 +11,17 @@ layout: default
 
 ## Tools
 
-### Team Communication
+### Team Communication & Collaboration
+
+#### Communication Clients
 
 * [slack](https://slack.com/)
 * [Gitter](https://gitter.im/)
-* IRC
+* [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+
+#### Collaboration Tools
+
+* [DiffChecker](https://www.diffchecker.com/): Online diff tool to share file diffs by link
 
 ## References
 

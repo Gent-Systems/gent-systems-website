@@ -5,6 +5,8 @@ title: Website Design
 
 # Website Design
 
+A good starting point might be to check out the tutorials and reference over at [w3schools.com](https://www.w3schools.com/)
+
 ## Page Layout
 
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim): jQuery plugin for dropdown menus that can differentiate between a user trying to hover over a dropdown item vs trying to navigate into a submenu's contents.
