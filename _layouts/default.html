@@ -15,12 +15,8 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/github-markdown.css">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://use.fontawesome.com/dcea14ca87.js"></script>
-        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-        <script src="/scripts/toc.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
         <!-- Google Analytics -->
         <script>
@@ -117,11 +113,11 @@
             .bs-docs-sidebar .nav>.active>ul.nav {
                 display: block;
             }
-
-            .navbar-brand {
-                font-size: 12px;
+            
+            .navbar-brand:hover {
+                color: #dd9933 !important;
             }
-
+            
             .navbar-nav li a {
                 border-bottom: 2px solid transparent;
             }
@@ -203,69 +199,65 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <a class="navbar-brand" href="https://gent-systems.github.io/">
-                            <img src="/img/Gent-systems_icon_white.png" width="22" height="22">
-                        </a>
-                        <li><a href="https://gent-systems.github.io/">Gent-Systems</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Our Projects</a></li>
-                                <li><a href="#">Our Goals</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Knowledge Base <span class="caret"></span></a>
-                            <ul class="dropdown-menu multi-level">
-                                <li><a href="#">Business-Finance</a></li>
-                                <li><a href="#">Leadership & Management</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Analog Design & Electrical Theory</a></li>
-                                <li><a href="#">Digital Design</a></li>
-                                <li><a href="#">Communication Systems</a></li>
-                                <li><a href="#">Computer & Networking Systems</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="http://gent-systems.com/kb/software-engineering/main" class="dropdown-toggle" data-toggle="dropdown">Software Engineering</a>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">SDLC</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools</a>
-                                            <ul class="dropdown-menu">
-                                            <li><a href="http://gent-systems.github.io/kb/software-engineering/tools/VIM">VIM</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <form class="navbar-form navbar-right" method="get" action="http://gent-systems.com/search-results.html">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search..." name="q">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit" onclick="sendToSearch()">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-inverse container-fluid" role="navigation">
+            <a class="navbar-brand" href="https://gent-systems.github.io/">
+                <span><img src="/img/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:30px;height:30px;"></span> Gent-Systems
+            </a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" container-fluid>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Our Projects</a></li>
+                            <li><a href="#">Our Goals</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Knowledge Base <span class="caret"></span></a>
+                        <ul class="dropdown-menu multi-level">
+                            <li><a href="#">Business-Finance</a></li>
+                            <li><a href="#">Leadership & Management</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Analog Design & Electrical Theory</a></li>
+                            <li><a href="#">Digital Design</a></li>
+                            <li><a href="#">Communication Systems</a></li>
+                            <li><a href="#">Computer & Networking Systems</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="http://gent-systems.com/kb/software-engineering/main" class="dropdown-toggle" data-toggle="dropdown">Software Engineering</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">SDLC</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a href="http://gent-systems.github.io/kb/software-engineering/tools/VIM">VIM</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form pull-right" method="get" action="http://gent-systems.com/search-results.html">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search..." name="q">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit" onclick="sendToSearch()">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </nav>
-
         <br>
 
         <nav class="col-xs-3 bs-docs-sidebar">
@@ -275,9 +267,7 @@
         <article class="markdown-body">
             {{ content }}
         </article>
-
-    <br>
-
+        <br>
     </body>
 
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
@@ -287,6 +277,16 @@
         <a href="https://github.com/Gent-Systems"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
     </footer>
 
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dcea14ca87.js"></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="/scripts/toc.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/scripts/ie10-viewport-bug-workaround.js"></script>
+    
     <script>
         $('body').scrollspy({
             target: '.bs-docs-sidebar',
