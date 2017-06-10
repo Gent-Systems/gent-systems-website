@@ -1,21 +1,19 @@
-# From github.com/jekyll/jekyll-seo-tag
-#
 # Site settings
 collections:
   kb:
     output: true
     permalink: /:path/:title/
 
-# Build settings
+# Build settings & gem packages
 markdown: kramdown
 highlighter: rouge
 gems: 
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# SEO
+# SEO: from github.com/jekyll/jekyll-seo-tag
 title: Gent-Systems
 description: Engineering creatively. Learning and development through open-source.
 url: http://gent-systems.com
 author: John Gentile
-logo: /img/Gent-systems_icon_black.png
+logo: /assets/images/Gent-systems_icon_black.png
