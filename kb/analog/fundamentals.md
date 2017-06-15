@@ -1,11 +1,11 @@
 ---
 title: Analog Engineering Fundamentals
 layout: default
+categories: analog
+kb: true
 ---
 
 # Reference Designs
-
-$$ 5 + 5 $$
 
 ## References
 
