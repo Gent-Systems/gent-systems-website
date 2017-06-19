@@ -30,11 +30,11 @@ If you have Vim configuration files, make sure they are put in the correct Windo
 
 #### Packages
 
-* [Vintageous]: Vim emulator for Sublime Text
-* [SublimeLinter]: Linter framework for multiple languages in Sublime Text
-* [Git Gutter]: Shows git diff information in side bar of file
-* [All Autocomplete]: Find autocompletions in any open file
-* [Base16 Color Scheme]: Variety of color schemes
+* Vintageous: Vim emulator for Sublime Text
+* SublimeLinter: Linter framework for multiple languages in Sublime Text
+* Git Gutter: Shows git diff information in side bar of file
+* All Autocomplete: Find autocompletions in any open file
+* Base16 Color Scheme: Variety of color schemes
 
 ### Visual Studio
 
