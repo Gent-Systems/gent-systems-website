@@ -35,6 +35,9 @@ If you have Vim configuration files, make sure they are put in the correct Windo
 * Git Gutter: Shows git diff information in side bar of file
 * All Autocomplete: Find autocompletions in any open file
 * Base16 Color Scheme: Variety of color schemes
+* MarkdownEditing: Completion and editing features for working with Markdown (*.md) files
+* Markdown Preview: Preview and compile Markdown files in internet browser as well as advanced features such as YAML and MathJax support (set `enable_mathjax` to `true` in your settings)
+* VHDL: VHDL language markup and syntax
 
 ### Visual Studio
 
@@ -43,3 +46,8 @@ If you have Vim configuration files, make sure they are put in the correct Windo
 * [VsVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim): Emulates Vim controls and keys to Visual Studio
 * [MarkdownEditor](https://github.com/madskristensen/MarkdownEditor)
 * [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer): Visualize trailing whitespace with red blocks to easily remove them from source files
+
+### Utilities
+
+* [Search Everything](https://www.voidtools.com/): Fast fuzzy search of everything on disk
+* [Git for Windows](https://git-scm.com/download/win)
