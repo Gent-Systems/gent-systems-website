@@ -16,6 +16,15 @@ A good starting point might be to check out the tutorials and reference over at 
 * [Font Awesome](http://fontawesome.io/icons/): Large selection of vector graphic icons as well as brand icons
 * [Google Material Icons](http://google.github.io/material-design-icons/): Google icons for standard icons and large CDN distribution
 
+## Content
+
+### Markdown
+
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* To embed LaTeX or other [MathJax](https://www.mathjax.org/) capable equations and symbols, use `$` symbols like `$ \some \math \commands $` to put rendered equations inline
+    - Use double `$$` symbols to have a formula appear on it's own new line
+    - It's also useful to use online LaTeX editors like [CodeCogs](https://www.codecogs.com/latex/eqneditor.php)
+
 ## Google Tools
 
 * [Analytics](https://analytics.google.com/): Easy website tracking and analytics that can be added to any website (including this one).
