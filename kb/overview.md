@@ -12,8 +12,10 @@ layout: default
 <ul>
     {% for page in site.pages %}
         {% if page.kb == true %}
-            {% if (page.top-category == cat_one) && (page.sub-category == cat_two) %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% if page.top-category == cat_one %}
+                {% if page.sub-category == cat_two %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endif %}
             {% endif %}
         {% endif %}
     {% endfor %}
