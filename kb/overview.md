@@ -5,9 +5,9 @@ layout: default
 
 # Knowledge Base Overview
 
-{% for cat_one in site.top-categories %}
+{% for cat_one in site.kb-categories %}
 ## {{ cat_one }}
-{% for cat_two in site.sub-categories %}
+{% for cat_two in site.kb-categories.cat_one %}
 ### {{ cat_two }}
 <ul>
     {% for page in site.pages %}

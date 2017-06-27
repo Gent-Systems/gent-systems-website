@@ -12,8 +12,13 @@ gems:
   - jekyll-seo-tag
 
 # KB Page Categorization
-top-categories: [Analog, Digital]
-sub-categories: [Fundamentals, SDLC, tools]
+kb-categories: 
+  Analog:
+    Fundamentals
+    High-Performance
+  Digital:
+    Fundamentals
+    VHDL
 
 # SEO: from github.com/jekyll/jekyll-seo-tag
 title: Gent-Systems
