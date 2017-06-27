@@ -12,8 +12,8 @@ gems:
   - jekyll-seo-tag
 
 # KB Page Categorization
-top-categories: [business, leadership, analog, digital, comms, computer, sw]
-second-categories: [SDLC, tools]
+top-categories: [Analog, Digital]
+sub-categories: [Fundamentals, SDLC, tools]
 
 # SEO: from github.com/jekyll/jekyll-seo-tag
 title: Gent-Systems
