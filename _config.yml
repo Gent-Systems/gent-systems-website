@@ -11,11 +11,6 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# KB Page Categorization
-kb-categories: [Analog, Digital]
-analog-cat: [Fundamentals, High-Performance]
-digital-cat: [Fundamentals, VHDL]
-
 # SEO: from github.com/jekyll/jekyll-seo-tag
 title: Gent-Systems
 description: Engineering creatively. Learning and development through open-source.

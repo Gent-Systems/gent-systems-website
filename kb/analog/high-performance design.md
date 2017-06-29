@@ -1,7 +1,7 @@
 ---
 title: High-Performance Electrical Design
 layout: default
-categories: analog
+top-category: Analog
 kb: true
 ---
 
