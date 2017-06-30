@@ -7,6 +7,8 @@ layout: default
 
 {% assign mypages = site.pages | sort: 'top-category' | group_by: 'top-category' %}
 {% for cat in mypages %}
+<!-- Remove 1st element which is always blank -->
+{% if forloop.first != true %}
 <h2>{{ cat.name }}</h2>
 <ul>
     {% assign items = cat.items %}
@@ -16,4 +18,5 @@ layout: default
     {% endif %}
     {% endfor %}
 </ul>
+{% endif %}
 {% endfor %}
