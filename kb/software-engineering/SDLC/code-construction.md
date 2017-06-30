@@ -1,6 +1,8 @@
 ---
 title: Code Construction
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 (still on section 2.2)

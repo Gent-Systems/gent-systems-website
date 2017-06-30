@@ -1,6 +1,8 @@
 ---
 title: Reference Designs
 layout: default
+kb: true
+top-category: Analog
 ---
 
 # Reference Designs

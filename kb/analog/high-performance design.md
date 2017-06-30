@@ -3,7 +3,6 @@ title: High-Performance Electrical Design
 layout: default
 kb: true
 top-category: Analog
-sub-category: Advanced
 ---
 
 # High-Performance Electrical Design

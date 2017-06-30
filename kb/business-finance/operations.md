@@ -1,6 +1,8 @@
 ---
 title: Operations
 layout: default
+kb: true
+top-category: Business
 ---
 
 # Business Operations

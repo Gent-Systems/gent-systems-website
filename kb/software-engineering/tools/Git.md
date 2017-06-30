@@ -1,3 +1,9 @@
+---
+title: Git
+layout: default
+kb: true
+top-category: Tools
+---
 # Git Usage and Workflow
 
 ## Getting Started

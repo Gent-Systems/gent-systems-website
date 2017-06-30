@@ -1,6 +1,8 @@
 ---
 title: Compilers
 layout: default
+kb: true
+top-category: Tools
 ---
 
 # Compilation Tools

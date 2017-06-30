@@ -1,6 +1,8 @@
 ---
 title: Windows Development Tips
 layout: default
+kb: true
+top-category: Tools
 ---
 
 # Windows Development Tools & Tips

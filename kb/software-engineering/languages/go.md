@@ -1,6 +1,8 @@
 ---
 title: Go Language
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 # The Go Language

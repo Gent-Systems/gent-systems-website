@@ -1,6 +1,8 @@
 ---
 title: Linux Security
 layout: default
+kb: true
+top-category: Computer Architecture and Systems
 ---
 
 # The Linux Operating System

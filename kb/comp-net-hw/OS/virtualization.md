@@ -1,6 +1,8 @@
 ---
 title: Windows Operating System
-layout: default
+layout: defaul
+kb: true
+top-category: Computer Architecture and Systems
 ---
 
 ## Containers

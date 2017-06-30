@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Website Design
+kb: true
+top-category: Software Engineering
 ---
 
 # Website Design

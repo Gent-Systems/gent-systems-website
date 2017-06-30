@@ -1,6 +1,8 @@
 ---
 title: VIM
 layout: default
+kb: true
+top-category: Tools
 ---
 
 # Vim Commands & Usage Notes

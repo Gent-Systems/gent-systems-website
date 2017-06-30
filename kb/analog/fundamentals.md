@@ -3,7 +3,6 @@ title: Analog Engineering Fundamentals
 layout: default
 kb: true
 top-category: Analog
-sub-category: Fundamentals
 ---
 
 # Reference Designs

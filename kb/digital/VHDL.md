@@ -1,6 +1,8 @@
 ---
 title: VHDL
 layout: default
+kb: true
+top-category: Digital Engineering
 ---
 
 # VHDL

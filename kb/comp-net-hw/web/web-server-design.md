@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Web Server Design
+kb: true
+top-category: Software Engineering
 ---
 
 # Web Server Design

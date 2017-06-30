@@ -1,6 +1,8 @@
 ---
 title: Software Testing
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 ## References

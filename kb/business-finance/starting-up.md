@@ -1,6 +1,8 @@
 ---
 title: Starting Up
 layout: default
+kb: true
+top-category: Business
 ---
 
 > "The more things are forbidden, the more popular they become."- Mark Twain

@@ -1,6 +1,8 @@
 ---
 title: Operating Systems
 layout: default
+kb: true
+top-category: Computer Architecture and Systems
 ---
 
 # General Operating System Principles

@@ -1,6 +1,8 @@
 ---
 title: Data Structures
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 ## References

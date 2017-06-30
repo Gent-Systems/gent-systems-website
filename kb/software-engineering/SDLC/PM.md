@@ -1,6 +1,8 @@
 ---
 title: Software Project Management
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 > "Failing to plan is planning to fail"- Alan Lakein

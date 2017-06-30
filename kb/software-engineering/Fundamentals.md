@@ -1,6 +1,8 @@
 ---
-title: SW-Engineering
+title: SW-Engineering Fundamentals
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 # Software Engineering

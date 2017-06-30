@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Reverse Engineering
+kb: true
+top-category: Cyber and Offensive Security
 ---
 
 ## Tools

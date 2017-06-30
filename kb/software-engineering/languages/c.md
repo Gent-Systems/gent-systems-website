@@ -1,6 +1,8 @@
 ---
 title: C Language
 layout: default
+kb: true
+top-category: Software Engineering
 ---
 
 # The ANSI C Language
