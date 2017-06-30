@@ -262,10 +262,30 @@
         <br>
     </body>
 
+    {% if page.comments %}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = "{{ page.url }}";
+    this.page.identifier = "{{ page.id }}";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://EXAMPLE.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% endif %}
+    
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return to the top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <footer style="color:#fff;background-color:#3C3F41;padding:2em;text-align:center;clear:left">
-        <p>Maintained by <em><a href="http://www.gent-systems.com">Gent-Systems</a></em> and John Gentile | 2017</p>
+        <div><img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></div>
+        <br />
+        <p><em>Page last updated {{ page.last_modified_at | date_to_string }}</em></p>
+        <p><strong>Maintained by <a href="http://www.gent-systems.com">Gent-Systems</a> and John Gentile | 2017</strong></p>
     </footer>
 
     <!-- Placed at the end of the document so the pages load faster -->

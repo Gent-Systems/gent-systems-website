@@ -3,6 +3,9 @@ title: VIM
 layout: default
 kb: true
 top-category: Tools
+date: 2017-01-01 00:00:00 -0600
+last_modified_at: 2017-06-30 20:00:00 -0600
+comments: true
 ---
 
 # Vim Commands & Usage Notes
