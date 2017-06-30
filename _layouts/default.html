@@ -226,8 +226,10 @@
                                 <ul class="dropdown-menu">
                                     {% assign items = cat.items %}
                                     {% for item in items %}
+                                    {% if forloop.first != true %}
                                     {% if item.kb == true %}
                                     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                                    {% endif %}
                                     {% endif %}
                                     {% endfor %}
                                 </ul>
