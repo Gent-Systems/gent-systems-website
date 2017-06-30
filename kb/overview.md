@@ -5,7 +5,7 @@ layout: default
 
 # Knowledge Base Overview
 
-{% assign mypages = site.pages | group_by: 'top-category' | sort: 'top-category' %}
+{% assign mypages = site.pages | sort: 'top-category' | group_by: 'top-category' %}
 {% for cat in mypages %}
 <h2>{{ cat.name | capitalize}}</h2>
 <ul>
