@@ -263,7 +263,7 @@
     </body>
 
     {% if page.comments %}
-    <div id="disqus_thread"></div>
+    <div id="disqus_thread" style="width:80%;"></div>
     <script>
     var disqus_config = function () {
     this.page.url = "http://gent-systems.com{{ page.url }}";
@@ -282,7 +282,9 @@
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return to the top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <footer style="color:#fff;background-color:#3C3F41;padding:2em;text-align:center;clear:left">
-        <div><img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></div>
+        <div><a href="http://gent-systems.com">
+            <img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></a>
+        </div>
         <br />
         <p><em>Page last updated {{ page.last_modified_at | date_to_string }}</em></p>
         <p><strong>Maintained by <a href="http://www.gent-systems.com">Gent-Systems</a> and John Gentile | 2017</strong></p>
