@@ -282,12 +282,15 @@
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return to the top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <footer style="color:#fff;text-align:center;clear:left">
-        <div style="background-color: rgb(50, 50, 50);padding:2em;"><a href="http://gent-systems.com">
-            <img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></a>
+        <div style="background-color: rgb(50, 50, 50);padding:1em;">
+            <p><em>Page last updated {{ page.last_modified_at | date_to_string }}</em></p>
         </div>
         <div style="background-color: rgb(46, 46, 46);padding:2em;">
-            <p><em>Page last updated {{ page.last_modified_at | date_to_string }}</em></p>
-            <p><strong>Maintained by Gent-Systems </strong></p>
+            <a href="http://gent-systems.com">
+            <img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></a>
+            <br />
+            <br />
+            <p><strong>Maintained by Gent-Systems</strong></p>
         </div>
     </footer>
 
