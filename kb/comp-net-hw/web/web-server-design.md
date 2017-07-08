@@ -10,6 +10,10 @@ comments: true
 
 # Web Server Design
 
+## Installation & Configuration
+
+See this [installation bash script](https://github.com/JohnnyGOX17/configs/blob/master/install_packages) for examples of software packages and configurations for CentOS 7 operating system.
+
 ## References
 
 * [Red Hat Enterprise Linux 7 System Administrator's Guide](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/index.html)
