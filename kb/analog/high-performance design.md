@@ -16,6 +16,8 @@ The goal: to build devices that go faster, are more precise and further push the
 
 As devices get smaller and faster, and with edge speeds in the nanosecond to hundreds of picoseconds becoming the norm, high-speed design is becoming even more critical to even basic devices nowadays.
 
+![Signal Integrity](SI_capture.png)
+
 ## References
 
 * 
