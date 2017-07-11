@@ -1,16 +1,20 @@
 ---
-title: Compilers
+title: Code Tools
 layout: default
 kb: true
 top-category: Tools
 date: 2017-01-01 00:00:00 -0600
-last_modified_at: 2017-06-30 20:00:00 -0600
+last_modified_at: 2017-07-10 20:00:00 -0600
 comments: true
 ---
 
-# Compilation Tools
+# Code Tools
 
-## Other tools
+## Compilers
+
+* [GNU Make](https://www.gnu.org/software/make/)
+* [CMake](https://cmake.org/)
+* [Clang Compiler](http://clang.llvm.org/docs/UsersManual.html)
 
 ### Online Compilers
 
@@ -20,3 +24,15 @@ comments: true
 ## References
 
 * [An Introduction to GCC by Brian Gough](http://www.network-theory.co.uk/docs/gccintro/)
+
+## Code Analysis Tools
+
+* [Facebook Infer](http://fbinfer.com/)
+
+### Valgrind
+
+* [Valgrind](http://valgrind.org/)
+
+### Doxygen
+
+* [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)

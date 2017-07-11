@@ -12,6 +12,8 @@ comments: true
 
 A good starting point might be to check out the tutorials and reference over at [w3schools.com](https://www.w3schools.com/)
 
+* [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
+
 ## Page Layout
 
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim): jQuery plugin for dropdown menus that can differentiate between a user trying to hover over a dropdown item vs trying to navigate into a submenu's contents.
@@ -29,6 +31,27 @@ A good starting point might be to check out the tutorials and reference over at 
 * To embed LaTeX or other [MathJax](https://www.mathjax.org/) capable equations and symbols, use `$` symbols like `$ \some \math \commands $` to put rendered equations inline
     - Use double `$$` symbols to have a formula appear on it's own new line
     - It's also useful to use online LaTeX editors like [CodeCogs](https://www.codecogs.com/latex/eqneditor.php)
+
+### Math & Special Formatting
+
+* [LaTeX](https://en.wikibooks.org/wiki/LaTeX)
+    + [Online LaTeX Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+* [MathJax](https://www.mathjax.org/)
+
+## Code & Tools
+
+* [Google Developer Tools](https://developers.google.com/web/tools/setup/setup-buildtools#dont-trip-up-with-vendor-prefixes)
+
+### npm Packages
+
+* [uglify-js](https://www.npmjs.com/package/uglify-js): JavaScript parser, minifier, compressor and beautifier toolkit.
+* [grunt-html](https://www.npmjs.com/package/grunt-html): Grunt plugin for HTML validation
+
+## Site Generators
+
+### Jekyll
+
+* [Jekyll](https://jekyllrb.com/)
 
 ## Google Tools
 

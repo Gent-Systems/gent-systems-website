@@ -19,6 +19,8 @@ While Git is mainly used via command-line (complete command set and IMHO quicker
 
 As well, if you are developing an application that you would like to leverage Git functionality, you can use [libgit2](https://git-scm.com/book/en/v2/Embedding-Git-in-your-Applications-Libgit2) or [JGit](https://git-scm.com/book/en/v2/Embedding-Git-in-your-Applications-JGit) to use Git operations.
 
+There are also web frontends for Git repositories such as [cgit](https://git.zx2c4.com/cgit/about/).
+
 ## Commands & Workflow
 
 ![Lifecycle of Git tracked files](https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png)
