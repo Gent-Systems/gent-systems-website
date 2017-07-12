@@ -4,7 +4,7 @@ title: Website Design
 kb: true
 top-category: Software Engineering
 date: 2017-01-01 00:00:00 -0600
-last_modified_at: 2017-06-30 20:00:00 -0600
+last_modified_at: 2017-07-06 20:00:00 -0600
 comments: true
 ---
 
@@ -30,28 +30,30 @@ A good starting point might be to check out the tutorials and reference over at 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * To embed LaTeX or other [MathJax](https://www.mathjax.org/) capable equations and symbols, use `$` symbols like `$ \some \math \commands $` to put rendered equations inline
     - Use double `$$` symbols to have a formula appear on it's own new line
+    - For kramdown, double dollarsigns actually represent math that will go inline with text. To have math statements appear on a newline (i.e. not inline), use escaped dollar signs such as `\$\$ 5 + 5 $$`
     - It's also useful to use online LaTeX editors like [CodeCogs](https://www.codecogs.com/latex/eqneditor.php)
-
-### Math & Special Formatting
-
+* [kramdown Syntax](https://kramdown.gettalong.org/syntax.html): kramdown is used in [Jekyll](#Jekyll)
 * [LaTeX](https://en.wikibooks.org/wiki/LaTeX)
-    + [Online LaTeX Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
-* [MathJax](https://www.mathjax.org/)
 
 ## Code & Tools
 
 * [Google Developer Tools](https://developers.google.com/web/tools/setup/setup-buildtools#dont-trip-up-with-vendor-prefixes)
+* [Web Style Guide](http://www.webstyleguide.com/)
 
 ### npm Packages
 
 * [uglify-js](https://www.npmjs.com/package/uglify-js): JavaScript parser, minifier, compressor and beautifier toolkit.
 * [grunt-html](https://www.npmjs.com/package/grunt-html): Grunt plugin for HTML validation
+* [bootlint](https://github.com/twbs/bootlint)
 
 ## Site Generators
+
+* [Mobirise](https://mobirise.com/)
 
 ### Jekyll
 
 * [Jekyll](https://jekyllrb.com/)
+* [Jekyll & Liquid Cheatsheet](https://gist.github.com/smutnyleszek/9803727)
 
 ## Google Tools
 
