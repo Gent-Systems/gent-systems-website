@@ -160,6 +160,7 @@ Here are some useful tips when working with Vim for code development:
 * Get creative with autocommands and abbreviations to insert commonly used sections of code/text automagically
 * Use plugins (_sparingly_) to help aid in quicker, more effecient development (see .vimrc linked above for an example)
 * You can easily remove trailing whitespace with `:%s/\s\+$//` (or macro to a keyboard shortcut for easier use)
+* `vim -d [file1] [file2]` is an easy way to diff two files
 
 ## References
 
