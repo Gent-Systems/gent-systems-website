@@ -1,5 +1,5 @@
 ---
-title: Linux Development Tools
+title: Linux Tools & Techniques
 layout: default
 kb: true
 top-category: Tools and Techniques
@@ -11,6 +11,11 @@ comments: true
 # Linux Development Tools
 
 ## Navigation
+
+### File/Directory Removal
+
+* `rm -r dir/` removes the directory (and all files and subdirectories within) `dir`
+* `rm -r dir/*` removes all files and subdirectories in `dir`
 
 * [sed](https://www.gnu.org/software/sed/manual/sed.html): a stream editor
 * [ranger](http://ranger.nongnu.org/): console file manager with VI key bindings

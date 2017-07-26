@@ -8,11 +8,9 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# Reference Designs
+# Analog Engineering Fundamentals
 
-
-
-## References
+## Reference Designs
 
 * [Arrow](https://www.arrow.com/en/reference-designs)
 * [Texas Instruments](http://www.ti.com/guidedsupport/docs/categoryhome.tsp?categoryId=515)
