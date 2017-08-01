@@ -21,6 +21,10 @@ As well, if you are developing an application that you would like to leverage Gi
 
 There are also web frontends for Git repositories such as [cgit](https://git.zx2c4.com/cgit/about/).
 
+* [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/): Removes large or troublesome blobs like `git-filter-branch` does but faster and written in Scala.
+
+* [git-imerge](https://github.com/mhagger/git-imerge): incremental merge and rebase for git
+
 ## Commands & Workflow
 
 ![Lifecycle of Git tracked files](https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png)

@@ -61,3 +61,6 @@ Related link: Your Startup’s First Thousand Decisions Don’t Matter (But Thes
    Of course, you can also hire for this. You may have some insight into the consumer side of the lunch-delivery business. If you want to leverage that insight, you better partner with someone who has food-sourcing knowledge and experience with that supply chain, or you’ll end up spending all the sand that insight provided you on learning the nuances of the industry.
    The startup idea you pursue should be one you’ve been unconsciously preparing for your whole life. It should be about your strengths, not just a gap you see in a market. What are you, uniquely, incredible at? What do you know that no one else does? The first thing you should ask yourself when you have an idea is, “Why am I the best person to start this?”
    If you ever find yourself sitting in a coffeeshop, quietly pitching your startup idea while side-eyeing everyone else within earshot—stop. Whisper ideas never work. But there’s undoubtedly an idea that you’re the best person in the world to pursue. One that you can scream from the rooftops. Find it.
+
+
+https://www.bountysource.com/  

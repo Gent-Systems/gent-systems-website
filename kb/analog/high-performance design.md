@@ -16,7 +16,31 @@ The goal: to build devices that go faster, are more precise and further push the
 
 As devices get smaller and faster, and with edge speeds in the nanosecond to hundreds of picoseconds becoming the norm, high-speed design is becoming even more critical to even basic devices nowadays.
 
+### Signal Integrity
+
+Due to faster and faster edge rates, signal integrity is crucially important across component variation, temperature and power supply voltages. Signal integrity issues can be caused by:
+* _Reflected Signals_: causes overshoot and ringing
+* _Coupled Signals_: causes crosstalk
+* _Rapid Changes in Power Draw_: causes power plane and ground bounce
+
 ![Signal Integrity](SI_capture.png)
+
+Signal integrity issues can result in problems such as:
+* _False Switching_: caused by reduced noise margins and level thresholds
+* _High EMI Radiation_
+
+ #TODO add Tek SI fundamentals here  
+
+### Factors of High-Performance/High-Speed Design
+
+* Driver edge speeds
+* Track length
+* Track impedance control
+* Component placement
+* Power distribution and decoupling
+* Ground plane integrity
+* Crosstalk
+* PCB stack-up
 
 ## References
 

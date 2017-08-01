@@ -158,7 +158,8 @@ Here are some useful tips when working with Vim for code development:
     - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>f</kbd> to open file in new window
 * When working with source files edited/made in Windows/DOS, you'll often come across the issue of line ending mismatches when developing in Unix based systems. Vim can simply change line endings with a command such as `:set ff=unix` (to convert a DOS file to Unix line endings) or `:set ff=dos` for the opposite
 * Get creative with autocommands and abbreviations to insert commonly used sections of code/text automagically
-* Use plugins (_sparingly_) to help aid in quicker, more effecient development (see .vimrc linked above for an example)
+* Use plugins to help aid in quicker, more effecient development (see .vimrc linked above for an example) but not those that add bloat and distraction to your development flow
+    - For example, [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) is an intelligent code-completion engine for Vim that can accelerate development and makes Vim more IDE-like
 * You can easily remove trailing whitespace with `:%s/\s\+$//` (or macro to a keyboard shortcut for easier use)
 * `vim -d [file1] [file2]` is an easy way to diff two files
 
