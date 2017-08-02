@@ -8,9 +8,9 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# Analog Engineering Fundamentals
+# { page.title }
 {:.no_toc}
-
+### Contents
 * TOC
 {:toc}
 
