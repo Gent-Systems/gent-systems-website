@@ -8,7 +8,11 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# Business Operations
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 - continuos improvement is improvement done on all processes, every day; weekly projects does not constitute 
   for continuous improvement

@@ -8,7 +8,11 @@ last_modified_at: 2017-07-09 20:00:00 -0600
 comments: true
 ---
 
-# Software Engineering
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 ## Learning a Language
 

@@ -8,7 +8,11 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# The Linux Operating System
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 * Use yum-cron to pull automatic updates from yum package manager: [yum-cron](https://www.certdepot.net/rhel7-configure-automatic-updates/) 
 

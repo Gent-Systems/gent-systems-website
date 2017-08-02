@@ -8,7 +8,11 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# Bash Shell Scripting
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 The UNIX shell and shell scripting is a system of interpretation of user commands (from a file or direct from the command line) into specific application and/or operating system actions. Due to scripts being interpreted, they are not compiled like traditional programming languages and are thus not as fast or efficient as compiled programs.
 

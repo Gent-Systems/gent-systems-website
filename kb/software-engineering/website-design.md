@@ -8,7 +8,11 @@ last_modified_at: 2017-07-06 20:00:00 -0600
 comments: true
 ---
 
-# Website Design
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 A good starting point might be to check out the tutorials and reference over at [w3schools.com](https://www.w3schools.com/)
 

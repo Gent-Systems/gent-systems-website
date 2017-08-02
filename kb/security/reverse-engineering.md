@@ -8,6 +8,12 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
+
 ## Tools
 
 * [IDA](https://www.hex-rays.com/products/ida/): Multi-OS disassembler and debugger with many advanced features.

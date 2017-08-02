@@ -8,6 +8,12 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
+
 (still on section 2.2)
 use metaphors to aid in explaining an abstracting difficult problems. Be creative in the problem solving process.
 

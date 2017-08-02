@@ -8,7 +8,11 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# Vim Commands & Usage Notes
+<h1>{{ page.title }}</h1>
+{:.no_toc}
+**Contents**
+* TOC
+{:toc}
 
 A good way to learn Vim is by using `vimtutor` in your shell. Some commands, like working with multiple files/windows in Vim, are not listed as our workflow mainly uses tiling windows managers in a Linux environment.
 
