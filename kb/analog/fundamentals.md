@@ -8,9 +8,10 @@ last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
-# { page.title }
+<h1>{ page.title }</h1>
 {:.no_toc}
 ### Contents
+{:.no_toc}
 * TOC
 {:toc}
 
