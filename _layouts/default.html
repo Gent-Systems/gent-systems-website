@@ -252,13 +252,19 @@
         </nav>
         <br>
 
-        <nav class="col-xs-3 bs-docs-sidebar">
-            <ul id="toc"></ul>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    <nav class="bs-docs-sidebar">
+                    <ul id="toc"></ul>
+                    </nav>
+                </div>
 
-        <article class="markdown-body">
-            {{ content }}
-        </article>
+                <article class="col-xl-10 markdown-body">
+                    {{ content }}
+                </article>
+            </div>
+        </div>
         <br>
     </body>
 
