@@ -125,13 +125,15 @@ Once in visual mode, navigation causes text to be highlighted.
 | Indent Selected Lines | `>`/`<` | Indents/De-indents selected lines by amount specified by `shiftwidth`. `=` indents the text by what Vim thinks is appropriate |
 | Jump to definition | <kbd>Ctrl</kbd>+<kbd>j</kbd> | Jump to definition of function highlighted | 
 
-## Vim Config File
+## Advanced Vim Techniques & Customization
+
+### Vim Config File
 
 The _.vimrc_ file (usually found in the home folder, but can be placed in other directories for per project custom features) is useful for enabling extended features of Vim and for personalization/customization of Vim. To see an example _.vimrc_ with comments on what-does-what, see [this GitHub link](https://github.com/JohnnyGOX17/configs/blob/master/configs/.vimrc).
 
 Vim can also be further extended with plugins and plugin managers such as [vim-plug](https://github.com/junegunn/vim-plug).
 
-## Techniques for Development
+### Techniques for Development
 
 Here are some useful tips when working with Vim for code development:
 
@@ -166,6 +168,12 @@ Here are some useful tips when working with Vim for code development:
     - For example, [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) is an intelligent code-completion engine for Vim that can accelerate development and makes Vim more IDE-like
 * You can easily remove trailing whitespace with `:%s/\s\+$//` (or macro to a keyboard shortcut for easier use)
 * `vim -d [file1] [file2]` is an easy way to diff two files
+
+### Techniques for Writing
+
+* To turn on spell check, use `:set spell spelllang=en_us`
+   + To spell check only the local buffer use `:setlocal spell spelllang=en_us`
+   + To turn off spell checking, use `:set nospell`
 
 ## References
 

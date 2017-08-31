@@ -14,6 +14,10 @@ comments: true
 * TOC
 {:toc}
 
+## Physics of Electrical Circuits
+
+Fundamentally, there is the property of matter _Charge_ which is measured in Coulombs (C). Charge is directly related to one of the fundamental building blocks of matter, the electron; the charge of an electron (e) is negative and has a magnitude of ~1.602x10<sup>-19</sup>.
+
 ## Direct Current Circuit Analysis (DC)
 
 ## Alternating Current Circuit Analysis (AC)
