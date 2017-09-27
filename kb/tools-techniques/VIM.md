@@ -116,6 +116,7 @@ Once in visual mode, navigation causes text to be highlighted.
 
 | Operation | Command | Description |
 |-----------|---------|-------------|
+| Select by line | <kbd>Shift</kbd>+<kbd>V</kbd> | Select line by line |
 | Select Text and Do Stuff | <kbd>:</kbd> | After selecting/highlighting some text, this will enter command mode so you can do things like write selection to another file |
 | Delete Selection | <kbd>x</kbd> or <kbd>d</kbd> | Deletes selection |
 | Join Text | <kbd>Shift</kbd>+<kbd>J</kbd> | If selecting text that spans multiple lines, join puts the lines into a single line seperated by spaces |
@@ -168,6 +169,7 @@ Here are some useful tips when working with Vim for code development:
     - For example, [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) is an intelligent code-completion engine for Vim that can accelerate development and makes Vim more IDE-like
 * You can easily remove trailing whitespace with `:%s/\s\+$//` (or macro to a keyboard shortcut for easier use)
 * `vim -d [file1] [file2]` is an easy way to diff two files
+* `:sort` is a powerful sort feature within Vim, use often
 
 ### Techniques for Writing
 
