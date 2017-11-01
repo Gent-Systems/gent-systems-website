@@ -3,8 +3,6 @@ title: Code Tools
 layout: default
 kb: true
 top-category: Tools and Techniques
-date: 2017-01-01 00:00:00 -0600
-last_modified_at: 2017-07-10 20:00:00 -0600
 comments: true
 ---
 

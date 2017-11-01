@@ -3,8 +3,6 @@ title: Analog Engineering Fundamentals
 layout: default
 kb: true
 top-category: Analog
-date: 2017-01-01 00:00:00 -0600
-last_modified_at: 2017-06-30 20:00:00 -0600
 comments: true
 ---
 
@@ -17,6 +15,10 @@ comments: true
 ## Physics of Electrical Circuits
 
 Fundamentally, there is the property of matter _Charge_ which is measured in Coulombs (C). Charge is directly related to one of the fundamental building blocks of matter, the electron; the charge of an electron (e) is negative and has a magnitude of ~1.602x10<sup>-19</sup>.
+
+![Electron Flow](electron_flow.png)
+
+_From [Nuts & Volts Magazine](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjGm8OL3oHWAhWlx4MKHfokAV4QjhwIBQ&url=http%3A%2F%2Fwww.nutsvolts.com%2Fmagazine%2Farticle%2Fwhich-way-does-current-really-flow&psig=AFQjCNEM48przwI2nCUNyFzAsc-yPaqLLw&ust=1504277839609821)_
 
 ## Direct Current Circuit Analysis (DC)
 

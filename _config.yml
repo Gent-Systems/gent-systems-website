@@ -7,9 +7,16 @@ collections:
 # Build settings & gem packages
 markdown: kramdown
 highlighter: rouge
-gems: 
+plugins: 
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-last-modified-at
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Makefile
 
 # SEO: from github.com/jekyll/jekyll-seo-tag
 title: Gent-Systems

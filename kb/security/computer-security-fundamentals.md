@@ -3,8 +3,6 @@ layout: default
 title: Computer Security Fundamentals
 kb: true
 top-category: Cyber and Offensive Security
-date: 2017-07-01 00:00:00 -0600
-last_modified_at: 2017-07-10 20:00:00 -0600
 comments: true
 ---
 
