@@ -61,3 +61,17 @@ A good starting point might be to check out the tutorials and reference over at 
 
 * [Analytics](https://analytics.google.com/): Easy website tracking and analytics that can be added to any website (including this one).
 * [PageSpeed Tools](https://developers.google.com/speed/pagespeed/): Analyze websites and pages and recommends actions to make pages faster and more optimized.
+
+
+## SEO (Search Engine Optimization)
+
+The goal for many websites is to attract the most amount of viewers (and the right targeted audience) as possible. Since most people start their information finding journey on search engines, websites should optimize their design to better be categorized by search engines and/or show up higher in search results. The main drivers of a site with good SEO is:
+* _Lots of Good Content:_ Search engines purposefully rank and categorize websites and their content based on what humans want and are looking for. Therefore, the most important part of SEO is to write lots of valuable content that is inline with the purpose of the website. This means writing lots of informational pages that people will want to read.
+* _Linking & Layout:_ 
+* _Site Speed:_ The time it takes for a site to load is not only a metric for users in the usability of a site but search engines also quantify this to rank websites (with faster load times ranking higher). There are some basics to optimizing site speed, such as minimizing resources or server side improvements, but a quick and thorough way to check what parts of a site could be improved is to use site speed tools such as:
+  + [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+  + [Pingdom](https://tools.pingdom.com/)
+  + [GTmetrix](https://gtmetrix.com/)
+  + [WebPageTest](http://www.webpagetest.org/)
+  + [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+* _Encryption:_ As more and more users expect some level of encryption when interacting with websites they visit, search engines give an indexing boost to websites that provide HTTPS encryption.
