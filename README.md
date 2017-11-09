@@ -1,3 +1,3 @@
-# Gent-Systems
+# Gent-Systems Website
 
-## Home page work in progress...
+Git repo for [gent-systems.com](http://gent-systems.com/) 
