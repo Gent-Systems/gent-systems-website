@@ -22,6 +22,8 @@ _From [Nuts & Volts Magazine](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&so
 
 ## Direct Current Circuit Analysis (DC)
 
+### KCL
+
 ## Alternating Current Circuit Analysis (AC)
 
 Electromagnetic (EM) waves behave like all other waves:
@@ -29,6 +31,7 @@ Electromagnetic (EM) waves behave like all other waves:
 * They propagate in some medium over time and attenuate as they propagate
 * They can be absorbed or reflected
 * Their paths can be guided
+
 
 ### Transmission Lines
 
