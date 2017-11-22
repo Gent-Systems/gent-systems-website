@@ -1,5 +1,5 @@
 build:
-	jekyll build
+	bundle exec jekyll build
 
 clean:
 	rm Gemfile.lock
@@ -11,4 +11,5 @@ deploy:
 	build push
 
 serve:
-	jekyll serve
+	xdg-open http://localhost:4000/
+	bundle exec jekyll serve
