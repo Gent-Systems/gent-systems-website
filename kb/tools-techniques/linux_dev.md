@@ -16,6 +16,11 @@ comments: true
 * [Facebook PathPicker](https://github.com/facebook/pathpicker/)
 * [The Silver Searcher](https://github.com/ggreer/the_silver_searcher): very, very fast code searching tool similar to `ack`
 
+### Vi(m) Key Bindings for GNU Readline (Bash & others)
+
+If the default Emacs key bindings for your terminal are boring, or you're a fan of Vi key navigation and editing, you can set GNU readline (the process feeding things like the bash terminal, SQL prompts, etc.) to have Vi keybindings by making some changes to your `~/.inputrc` config file. For example, take a look at [my .inputrc](https://github.com/JohnnyGOX17/configs/blob/master/configs/.inputrc).
+A valuable cheatsheet for this mode can be found [here](http://www.catonmat.net/download/bash-vi-editing-mode-cheat-sheet.pdf).
+
 ## File Management
 
 ### File/Directory Removal
