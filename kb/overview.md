@@ -1,9 +1,7 @@
 ---
-title: KB Overview
-layout: default
+title: Knowledge Base Overview
+layout: default_notime
 ---
-
-# Knowledge Base Overview
 
 {% assign mypages = site.pages | sort: 'top-category' | group_by: 'top-category' %}
 {% for cat in mypages %}

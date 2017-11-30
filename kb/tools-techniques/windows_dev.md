@@ -6,11 +6,7 @@ top-category: Tools and Techniques
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 ## Setting Up Windows for Use With *NIX Tools
 

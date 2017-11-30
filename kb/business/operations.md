@@ -6,11 +6,7 @@ top-category: Business
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 - continuos improvement is improvement done on all processes, every day; weekly projects does not constitute 
   for continuous improvement

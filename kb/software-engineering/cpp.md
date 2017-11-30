@@ -6,15 +6,14 @@ top-category: Software Engineering
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 ## The C++ Language
 
 C++ has language facilities similar to the C language such as being a procedural programming language but is vastly different in many ways.
+
+{% youtube "https://www.youtube.com/watch?v=86xWVb4XIyE" %}
+[CppCon](https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg) has great talks on new C++ features as well.
 
 ### Building C++ Programs
 

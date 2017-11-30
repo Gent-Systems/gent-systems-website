@@ -6,11 +6,7 @@ top-category: Software Engineering
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 A good starting point might be to check out the tutorials and reference over at [w3schools.com](https://www.w3schools.com/)
 

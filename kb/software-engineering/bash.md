@@ -6,11 +6,7 @@ top-category: Software Engineering
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 The UNIX shell and shell scripting is a system of interpretation of user commands (from a file or direct from the command line) into specific application and/or operating system actions. Due to scripts being interpreted, they are not compiled like traditional programming languages and are thus not as fast or efficient as compiled programs.
 

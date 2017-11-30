@@ -6,11 +6,7 @@ top-category: Cyber and Offensive Security
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-{:.no_toc}
-**Contents**
-* TOC
-{:toc}
+{% include header.html %}
 
 * Use yum-cron to pull automatic updates from yum package manager: [yum-cron](https://www.certdepot.net/rhel7-configure-automatic-updates/) 
 

@@ -11,6 +11,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-youtube
+  - liquid_pluralize
+  - liquid_reading_time
 exclude:
   - README.md
   - Gemfile
