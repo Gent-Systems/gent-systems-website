@@ -64,3 +64,5 @@ Related link: Your Startup’s First Thousand Decisions Don’t Matter (But Thes
 
 
 https://www.bountysource.com/  
+
+you don't have to create something completely new but you should be the best and most differentiated company in that space
