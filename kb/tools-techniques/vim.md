@@ -1,5 +1,5 @@
 ---
-title: VIM
+title: Vim
 layout: default
 kb: true
 top-category: Tools and Techniques

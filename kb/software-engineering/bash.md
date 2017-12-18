@@ -23,3 +23,4 @@ In UNIX systems, there's a variety of shells to choose from; from the original B
 * [Bash Guide for Beginners by Machtelt Garrels](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
 * [Advanced Bash-Scripting Guide by Mendel Cooper](http://www.tldp.org/LDP/abs/html/index.html)
 * [GNU/Linux Command-Line Tools Summary by Gareth Anderson](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)
+* [Bash Reference Manual- GNU](https://www.gnu.org/software/bash/manual/bashref.html)
