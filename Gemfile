@@ -1,3 +1,8 @@
+# File              : Gemfile
+# Author            : John Gentile <johncgentile17@gmail.com>
+# Date              : 26.12.2017
+# Last Modified Date: 26.12.2017
+# Last Modified By  : John Gentile <johncgentile17@gmail.com>
 source "https://rubygems.org/"
 
 # On new system, run `bundle install` to have Bundler install all necessary
@@ -14,4 +19,5 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
   gem "liquid_reading_time"
   gem "liquid_pluralize"
+  gem "rouge"
 end

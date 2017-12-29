@@ -25,7 +25,23 @@ A good starting point might be to check out the tutorials and reference over at 
 
 ### Markdown
 
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [GiHub-Style Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    - To see a complete list of syntax highlighting for various languages in GitHub Markdown, see the supported tags in [linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+    - If using [Jekyll](https://jekyllrb.com/), the [Rouge](http://rouge.jneen.net/) syntax highlighter is used. To wrap a block of text to be syntax highlighted you must use liquid tags around the text:
+
+{% raw %}
+{% highlight ruby linenos %}
+
+def foo
+  puts 'foo'
+end
+
+{% endhighlight %}
+{% endraw %}
+
+A full list of applicable short names for syntax highlighting can be found on the [Rogue wiki](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers).
+Note that a custom/unique syntax stylesheet might need to be used to color the applied syntax classes the lexer applies.
+
 * To embed LaTeX or other [MathJax](https://www.mathjax.org/) capable equations and symbols, use `$` symbols like `$ \some \math \commands $` to put rendered equations inline
     - Use double `$$` symbols to have a formula appear on it's own new line
     - For kramdown, double dollarsigns actually represent math that will go inline with text. To have math statements appear on a newline (i.e. not inline), use escaped dollar signs such as `\$\$ 5 + 5 $$`

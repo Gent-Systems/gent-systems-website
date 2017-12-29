@@ -13,9 +13,24 @@ comments: true
 C++ has language facilities similar to the C language such as being a procedural programming language but is vastly different in many ways.
 
 {% youtube "https://www.youtube.com/watch?v=86xWVb4XIyE" %}
-[CppCon](https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg) has great talks on new C++ features as well.
+<br />
+{% youtube "https://www.youtube.com/watch?v=1OEu9C51K2A" %}
+*[CppCon](https://www.youtube.com/channel/UCMlGfpWw-RUdWX_JbLCukXg) has great talks on new C++ features as well.*
 
-### Building C++ Programs
+### The Basics
+
+The proverbial "Hello, World!" implementation in C++ introduces a few basic parts of the language:
+
+{% highlight cpp %}
+#include <iostream>
+
+int main()
+{
+  std::cout << "Hello, World!\n";
+}
+{% endhighlight %}
+
+## Building C++ Programs
 
 C++ must be compiled from source files into object files and then linked into an executable file.
 

@@ -6,6 +6,8 @@ collections:
 
 # Build settings & gem packages
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 highlighter: rouge
 plugins: 
   - jekyll-sitemap
@@ -14,6 +16,7 @@ plugins:
   - jekyll-youtube
   - liquid_pluralize
   - liquid_reading_time
+  - rouge
 exclude:
   - README.md
   - Gemfile
