@@ -45,4 +45,5 @@ C++ is a statically typed language in that every entity (i.e. object, name, valu
 
 ## References
 
+* [The Standard](https://isocpp.org/std/the-standard): website for the current and draft ISO C++ standards
 * [The C++ Annotations by Frank B. Brokken](http://www.icce.rug.nl/documents/cplusplus/)

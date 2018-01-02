@@ -16,3 +16,8 @@ serve:
 	# takes longer than 5 seconds, adjust accordingly
 	sleep 5 && xdg-open http://localhost:4000/ &
 	bundle exec jekyll serve
+
+install:
+	# Run before building on new system to install dependent packages
+	bundle install
+	npm install

@@ -8,6 +8,10 @@ comments: true
 
 {% include header.html %}
 
+## Filesystem
+
+* [Filesystem Hierarchy Standard](http://www.pathname.com/fhs/) is a currently updated standard for Unix distributions on certain file/directories and their meanings.
+
 ## Kernel
 
 * [Getting Kernel Sources- CentOS 7](https://wiki.centos.org/HowTos/I_need_the_Kernel_Source)

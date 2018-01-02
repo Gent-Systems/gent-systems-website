@@ -53,4 +53,4 @@ Signal integrity issues can result in problems such as:
 
 ## References
 
-* 
+* [Analog Dialogue- Technical Papers from ADI](http://www.analog.com/en/analog-dialogue.html)

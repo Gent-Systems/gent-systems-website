@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/Gent-Systems/gent-systems-website#readme",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.3.0"
   }
 }

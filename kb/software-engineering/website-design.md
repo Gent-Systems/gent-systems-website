@@ -14,6 +14,10 @@ A good starting point might be to check out the tutorials and reference over at 
 
 ## Page Layout
 
+### Examples
+
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [HTML5 UP](https://html5up.net/)
 * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim): jQuery plugin for dropdown menus that can differentiate between a user trying to hover over a dropdown item vs trying to navigate into a submenu's contents.
 
 ### Icons
@@ -53,6 +57,8 @@ Note that a custom/unique syntax stylesheet might need to be used to color the a
 
 * [Google Developer Tools](https://developers.google.com/web/tools/setup/setup-buildtools#dont-trip-up-with-vendor-prefixes)
 * [Web Style Guide](http://www.webstyleguide.com/)
+
+A popular Javascript task runner is [Grunt](https://gruntjs.com/) which keeps versioning of plugins and can automate a variety of tasks.
 
 ### npm Packages
 
