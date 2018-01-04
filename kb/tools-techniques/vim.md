@@ -126,7 +126,9 @@ Once in visual mode, navigation causes text to be highlighted.
 
 The _.vimrc_ file (usually found in the home folder, but can be placed in other directories for per project custom features) is useful for enabling extended features of Vim and for personalization/customization of Vim. To see an example _.vimrc_ with comments on what-does-what, see [this GitHub link](https://github.com/JohnnyGOX17/configs/blob/master/configs/.vimrc).
 
-Vim can also be further extended with plugins and plugin managers such as [vim-plug](https://github.com/junegunn/vim-plug).
+#### Vimscript and Plugins
+
+Vim can also be further extended with plugins and plugin managers such as [vim-plug](https://github.com/junegunn/vim-plug) that execute Vimscript (scripting language within Vim) to execute unique features. [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) is a useful site for learning more about customizing Vim as well as developing custom Vim plugins.
 
 ### Techniques for Development
 
