@@ -150,7 +150,7 @@ Similar to other Unix programs, Git uses config files to store preferences and o
 
 Aliases can be used to use shorthand commands to represent longer or more complex commands (i.e. the below config file would map `git last` as the same command as `git log -l HEAD`). As well, certain variables can be changed and set; a more complete listing and background can be found [here](https://git-scm.com/docs/git-config.html). Here is an example `.gitconfig` for a user:
 
-```sh
+{% highlight terminal %}
 [user]
     name = Your Name
     email = your_email@domain.com
@@ -163,7 +163,7 @@ Aliases can be used to use shorthand commands to represent longer or more comple
     st = status
     unstage = reset HEAD --
     last = log -l HEAD
-```
+{% endhighlight %}
 
 ### .gitignore
 

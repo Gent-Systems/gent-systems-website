@@ -53,6 +53,10 @@ Note that a custom/unique syntax stylesheet might need to be used to color the a
 * [kramdown Syntax](https://kramdown.gettalong.org/syntax.html): kramdown is used in [Jekyll](#Jekyll)
 * [LaTeX](https://en.wikibooks.org/wiki/LaTeX)
 
+### Graphing & Charts
+
+* [Frappé Charts](https://frappe.github.io/charts/) simple and modern charting, integrates with `npm`
+
 ## Code & Tools
 
 * [Google Developer Tools](https://developers.google.com/web/tools/setup/setup-buildtools#dont-trip-up-with-vendor-prefixes)
@@ -66,20 +70,23 @@ A popular Javascript task runner is [Grunt](https://gruntjs.com/) which keeps ve
 * [grunt-html](https://www.npmjs.com/package/grunt-html): Grunt plugin for HTML validation
 * [bootlint](https://github.com/twbs/bootlint)
 
-## Site Generators
+### Google Tools
 
-* [Mobirise](https://mobirise.com/)
+* [Analytics](https://analytics.google.com/): Easy website tracking and analytics that can be added to any website (including this one).
+* [PageSpeed Tools](https://developers.google.com/speed/pagespeed/): Analyze websites and pages and recommends actions to make pages faster and more optimized.
+
+## Frameworks & Site Generators
+
+### Frameworks
+
+* [Node.js](https://nodejs.org/en/) is a JavaScript runtime built on Chrome's V8 engine that is light and efficient.
+* [Django](https://www.djangoproject.com/) is a high-level Python web framework that promotes rapid development and design.
+* [Mobirise](https://mobirise.com/) generates static website content (HTML + CSS) in a quick and easy interface
 
 ### Jekyll
 
 * [Jekyll](https://jekyllrb.com/)
 * [Jekyll & Liquid Cheatsheet](https://gist.github.com/smutnyleszek/9803727)
-
-## Google Tools
-
-* [Analytics](https://analytics.google.com/): Easy website tracking and analytics that can be added to any website (including this one).
-* [PageSpeed Tools](https://developers.google.com/speed/pagespeed/): Analyze websites and pages and recommends actions to make pages faster and more optimized.
-
 
 ## SEO (Search Engine Optimization)
 

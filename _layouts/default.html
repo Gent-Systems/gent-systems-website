@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--
- - File              : ../_layouts/default.html
+ - File              : _layouts/default.html
  - Author            : John Gentile <johncgentile17@gmail.com>
  - Date              : 06.12.2017
- - Last Modified Date: 26.12.2017
+ - Last Modified Date: 07.01.2018
  - Last Modified By  : John Gentile <johncgentile17@gmail.com>
 -->
 <html lang="en">
@@ -49,10 +49,15 @@
                 right: 20px;
                 display: none;
                 background-color: #dd9933;
+                border-color: #777777;
             }
 
+            .back-to-top:active,
+            .back-to-top:focus,
             .back-to-top:hover {
+                color: #dd9933;
                 background-color: #333;
+                border-color: #cccccc;
             }
 
             div.col-sm-9 div {
@@ -208,7 +213,7 @@
 
     <body>
         <nav class="navbar navbar-inverse container-fluid" role="navigation">
-            <a class="navbar-brand" href="http://gent-systems.com/">
+          <a class="navbar-brand" href="{{ site.url }}">
                 <span><img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:30px;height:30px;"></span> 
             </a>
             <div class="navbar-header">
@@ -247,7 +252,7 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="navbar-form pull-right" method="get" action="http://gent-systems.com/search-results.html">
+                <form class="navbar-form pull-right" method="get" action="/search-results.html">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search..." name="q">
                         <div class="input-group-btn">
@@ -283,7 +288,7 @@
     <div id="disqus_thread" style="width: 70%; margin: auto; padding: 10px;"></div>
     <script>
     var disqus_config = function () {
-    this.page.url = "http://gent-systems.com{{ page.url }}";
+      this.page.url = "{{ site.url }}{{ page.url }}";
     this.page.identifier = "{{ page.id }}";
     };
     (function() { // DON'T EDIT BELOW THIS LINE
@@ -296,16 +301,16 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
     
-    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return to the top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="Click to return to the top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <footer style="color:#fff;text-align:center;clear:left">
         <div style="background-color: rgb(46, 46, 46);padding:2em;">
-            <a href="http://gent-systems.com">
+          <a href="{{ site.url }}">
             <img src="/assets/images/Gent-systems_icon_white_512.png" alt="Gent-Systems" style="width:40px;height:40px;"></a>
             <br />
         </div>
         <div style="background-color: rgb(50, 50, 50);padding:1em;">
-            <p>Maintained by Gent-Systems</p>
+          <p><a href="{{ site.url }}">Maintained by Gent-Systems</a></p>
         </div>
     </footer>
 
@@ -351,7 +356,7 @@
                 $('#back-to-top').tooltip('hide');
                 $('body,html').animate({
                     scrollTop: 0
-                }, 800);
+                }, 500);
                 return false;
             });
             $('#back-to-top').tooltip('show');

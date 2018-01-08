@@ -1,5 +1,5 @@
 ---
-title: Bash-Scripting
+title: Shell Scripting
 layout: default
 kb: true
 top-category: Software Engineering

@@ -55,3 +55,4 @@ If you have Vim configuration files, make sure they are put in the correct Windo
 * [Search Everything](https://www.voidtools.com/): Fast fuzzy search of everything on disk
 * [Git for Windows](https://git-scm.com/download/win)
 * [AutoHotkey](https://autohotkey.com/)
+* [Win32 OpenSSH](https://github.com/PowerShell/Win32-OpenSSH/wiki/Install-Win32-OpenSSH) allows remote SSH access from other computers, especially useful if trying to SSH from a Unix system to a Windows system

@@ -8,6 +8,12 @@ comments: true
 
 {% include header.html %}
 
+## Language
+
+{% highlight c %}
+
+{% endhighlight %}
+
 ## Building C Programs
 
 ### GNU cc (gcc)
