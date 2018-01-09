@@ -10,15 +10,26 @@ comments: true
 
 ## Language
 
-{% highlight c %}
+### Standard Structure
 
+Starting with the ubiquitous "Hello, World" program in C:
+
+{% highlight c %}
+#include <stdio.h>
+
+main()
+{
+  printf("hello, world\n");
+}
 {% endhighlight %}
+
+
 
 ## Building C Programs
 
 ### GNU cc (gcc)
 
-`gcc` is a ubiquitous compiler for the C language (as well as C++ and Objective C). Debug information and optimizations can also be utilized.
+`gcc` is a common compiler for the C language (as well as C++ and Objective C). Debug information and optimizations can also be utilized.
 
 ## References
 
