@@ -104,9 +104,24 @@ All commands are assumed to start with <kbd>:</kbd> while in Normal mode
 | Edit another File | `e FILE` | Close current file and opens `FILE` for edit |
 | Open Help | `help` | Opens help menu in Vim |
 
+### Working with Multiple Files
+
+| Operation | Key(s) | Description |
+|-----------|--------|-------------|
+| Edit a file in a new buffer | `:e` _filename_ | |
+| Go to next open buffer | `:bnext`/`:bn` | |
+| Go to previously open buffer | `:bprev`/`:bp` | |
+| Delete buffer (close the file) | `:bd` | |
+| Open a file in a new buffer and split window | `:sp` _filename_ | |
+| Split Windows Horizontally | <kbd>Ctrl</kbd>+<kbd>ws</kbd> | |
+| Split Windows Vertically | <kbd>Ctrl</kbd>+<kbd>wv</kbd> | |
+| Switch between open Windows | <kbd>Ctrl</kbd>+<kbd>ww</kbd> | |
+| Quit a Window | <kbd>Ctrl</kbd>+<kbd>wq</kbd> | |
+
+
 ## Visual Mode
 
-Once in visual mode, navigation causes text to be highlighted.
+Once in visual mode, navigation causes text to be highlighted. Most normal mode operations, like yank and delete, carry over to visual mode as well and operate on the visually selected text.
 
 | Operation | Command | Description |
 |-----------|---------|-------------|
@@ -117,7 +132,7 @@ Once in visual mode, navigation causes text to be highlighted.
 | Enter Block Visual Mode | <kbd>Ctrl</kbd>+<kbd>v</kbd> | Select visual block; useful for tables or multiple line selection |
 | Insert text across a block | <kbd>Shift</kbd>+<kbd>i</kbd> | Useful when in Visual Block mode to do things like insert text across multiple lines |
 | Delete selected text and insert across a block | <kbd>c</kbd> | Deletes selected text and then goes into multiple insert mode, similar to above command |
-| Indent Selected Lines | `>`/`<` | Indents/De-indents selected lines by amount specified by `shiftwidth`. `=` indents the text by what Vim thinks is appropriate |
+| Indent Selected Lines | <kbd>></kbd>/<kbd><</kbd> | Indents/De-indents selected lines by amount specified by `shiftwidth`. `=` indents the text by what Vim thinks is appropriate |
 | Jump to definition | <kbd>Ctrl</kbd>+<kbd>j</kbd> | Jump to definition of function highlighted | 
 
 ## Advanced Vim Techniques & Customization
