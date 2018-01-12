@@ -15,6 +15,8 @@ Python is mainly split between the 2.X (older, now somewhat 'de facto' standard 
 {% highlight python %}
 {% endhighlight %}
 
+--- Learning Python, Pg 27 ---
+
 
 ## References
 
