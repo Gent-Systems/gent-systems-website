@@ -1,0 +1,24 @@
+{
+  "name": "Gent-Systems_Website",
+  "version": "0.1.0",
+  "description": "Website for Gent-Systems company",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gent-Systems/gent-systems-website.git"
+  },
+  "author": "John Gentile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gent-Systems/gent-systems-website/issues"
+  },
+  "homepage": "https://gent-systems.com",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "postcss-uncss": "^0.16.1",
+    "uncss": "^0.16.1"
+  }
+}
