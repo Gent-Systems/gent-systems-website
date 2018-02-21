@@ -7,6 +7,8 @@
 build:
 	# Clean stale data
 	rm -rf ./dist
+	# Generate sitemap.xml (from https://github.com/JohnnyGOX17/scripts/blob/master/generate-sitemap)
+	./generate-sitemap -d "https://gent-systems.com/" -s "./*.html" > sitemap.xml
 	# First generate pending TODO.md list
 	gulp todo
 	# Run PostCSS to optimize and minimize CSS

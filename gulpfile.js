@@ -19,9 +19,9 @@ var gulp = require('gulp'),
 // Minimize and optimize CSS
 gulp.task('css', function() {
   return gulp.src('./assets/**/*.css')
-    //.pipe(uncss({
-    //  html: ['./_site/**/*.html']
-    //}))
+    .pipe(uncss({
+      html: ['./*.html']
+    }))
     .pipe(nano())
     .pipe(gulp.dest('./dist/assets/'));
 });
