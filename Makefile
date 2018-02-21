@@ -2,7 +2,7 @@
 # To build, run `$ make` and to deploy to S3 run `$ make deploy`
 #
 # Author: John Gentile
-# Date:   2/19/18
+# Date:   2/20/18
 
 build:
 	# Clean stale data
@@ -24,8 +24,8 @@ clean:
 	# Deleting generated files...
 	rm -rf ./dist
 	rm -rf ./node_modules
-	rm TODO.md
-	rm .sass-cache
+	rm ./TODO.md
+	rm ./sitemap.xml
 
 # Jekyll should build before deploying to ensure site.url variables are used
 # correctly (jekyll serve replaces site.url w/local host settings)
