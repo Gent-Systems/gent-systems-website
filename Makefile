@@ -2,15 +2,14 @@
 # To build, run `$ make` and to deploy to S3 run `$ make deploy`
 #
 # Author: John Gentile
-# Date:   2/20/18
+# Date:   2/28/18
 
 build:
 	# Clean stale data
 	rm -rf ./dist
-	# Generate sitemap.xml (from https://github.com/JohnnyGOX17/scripts/blob/master/generate-sitemap)
-	./generate-sitemap -d "https://gent-systems.com/" -s "./*.html" > sitemap.xml
-	# First generate pending TODO.md list
+	# First generate pending TODO.md list then display to stdout
 	gulp todo
+	cat ./TODO.md
 	# Run PostCSS to optimize and minimize CSS
 	gulp css
 	# Minify final image, JavaScript & HTML files
@@ -19,6 +18,11 @@ build:
 	gulp minify-html
 	# Move over all other files
 	gulp move-files
+	cp ./robots.txt ./dist/robots.txt
+	# Generate sitemap.xml (from https://github.com/JohnnyGOX17/scripts/blob/master/generate-sitemap)
+	./generate-sitemap -d "https://gent-systems.com/" -s "./*.html" > ./dist/sitemap.xml
+	# Write current git revision to file for tracking
+	git rev-parse --short HEAD > ./dist/revision
 
 clean:
 	# Deleting generated files...

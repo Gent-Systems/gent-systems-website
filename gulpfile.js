@@ -2,7 +2,7 @@
  * @file             : gulpfile.js
  * @author           : John Gentile <johncgentile17@gmail.com>
  * Date              : 20.01.2018
- * Last Modified Date: 20.02.2018
+ * Last Modified Date: 28.02.2018
  * Last Modified By  : John Gentile <johncgentile17@gmail.com>
  */
 
@@ -69,7 +69,7 @@ gulp.task('minify-html', function() {
 
 // Move over all other files
 gulp.task('move-files', function() {
-  console.log("Moving fonts, robots.txt and sitemap.xml files to distribution.");
-  gulp.src('./**/*.{ttf,txt,woff,xml}')
+  console.log("Moving fonts files to distribution.");
+  gulp.src('./**/*.{ttf,woff}')
     .pipe(gulp.dest('./dist'));
 });
